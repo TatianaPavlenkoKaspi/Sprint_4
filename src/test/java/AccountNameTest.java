@@ -32,6 +32,7 @@ public class AccountNameTest {
         };
     }
 
+
     @Test
     public void shouldCheckNameToRequirements() {
         Account account = new Account(name);

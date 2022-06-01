@@ -11,6 +11,7 @@ public class Account {
     public boolean checkNameToEmboss() {
         int spaceCounter = StringUtils.countMatches(name, " ");
         return name.length() >= 3 && name.length() <= 19 && spaceCounter == 1 && !(name.startsWith(" ") | name.endsWith(" "));
+
     }
 
 }
